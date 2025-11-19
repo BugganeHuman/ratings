@@ -16,8 +16,7 @@ def main () :
         if main_meny_choice == "0" :
 
             break
-
-
+            
         elif main_meny_choice == "1" :
 
             title = input("write titles name: ")
@@ -28,12 +27,10 @@ def main () :
         elif main_meny_choice == "2" :
             show_file()
 
-
         elif main_meny_choice == "3" :
             delete_title = input("write titles name for remove: ")
             delete_string (delete_title)
-
-
+            
         elif main_meny_choice == "4" :
             updating_title = input("write titles name for update anything: ")
             title = input("write new titles name: ")
@@ -44,3 +41,4 @@ def main () :
 
 if __name__ == "__main__" :
     main()
+
